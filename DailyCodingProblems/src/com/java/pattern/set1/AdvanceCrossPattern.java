@@ -1,6 +1,6 @@
 package com.java.pattern.set1;
 
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class AdvanceCrossPattern {
 	public static void main(String[] args) {
