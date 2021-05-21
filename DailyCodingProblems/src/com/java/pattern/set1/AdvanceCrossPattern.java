@@ -5,7 +5,12 @@ import java.util.Scanner;
 public class AdvanceCrossPattern {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+//input should greater than 2, get the correct pattern
 		int n = sc.nextInt();
+		if (n <= 2) {
+			System.out.println("Please enter the value greater than 2");
+			return;
+		}
 
 		for (int i = 0; i < n; i++) {
 
