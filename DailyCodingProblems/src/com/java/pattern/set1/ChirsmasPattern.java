@@ -2,8 +2,6 @@ package com.java.pattern.set1;
 
 import java.util.Scanner;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.sym;
-
 /*
  * 						 * 
                         * * 
