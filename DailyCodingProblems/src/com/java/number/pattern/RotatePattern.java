@@ -1,4 +1,4 @@
-package com.pattern;
+package com.java.number.pattern;
 
 public class RotatePattern {
 
