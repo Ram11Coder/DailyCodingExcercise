@@ -1,4 +1,4 @@
-package com.java.stack;
+package com.gfg.stack;
 
 import java.util.Scanner;
 
