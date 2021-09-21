@@ -1,7 +1,5 @@
 package com.gfg.string;
 
-import java.util.Map;
-
 public class IpValidate {
 	public static void main(String[] args) {
 
@@ -14,8 +12,6 @@ public class IpValidate {
 	}
 
 	private static boolean vaildateIP(String s) {
-
-		
 
 		return true;
 	}
