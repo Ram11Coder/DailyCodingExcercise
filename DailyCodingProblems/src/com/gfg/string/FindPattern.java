@@ -9,34 +9,32 @@ package com.gfg.string;
 public class FindPattern {
 	public static void main(String[] args) {
 
-		String passage = "Jana Gana Mana Adhinaayak Jaya Hey,\r\n" + "Bhaarat Bhaagya Vidhaataa\r\n"
-				+ "Panjaab Sindhu Gujarat Maraatha,\r\n" + "Draavid Utkal Banga\r\n"
-				+ "Vindhya Himaachal Yamuna Ganga,\r\n" + "Uchchhal Jaladhi Taranga\r\n"
-				+ "Tav Shubh Naamey Jaagey,\r\n" + "Tav Shubh Aashish Maange\r\n" + "Gaahey Tav Jayagaathaa\r\n"
-				+ "Jana Gana Mangal Daayak,\r\n" + "Jaya Hey Bhaarat Bhaagya Vidhaataa\r\n"
-				+ "Jaya Hey, Jaya Hey, Jaya Hey,\r\n" + "Jaya Jaya Jaya, Jaya Hey", word = "Jana";
+		String passage = "Jana Gana Mana Adhinaayak Jaya Hey,Bhaarat Bhaagya Vidhaataa Panjaab Sindhu Gujarat Maraatha,Draavid Utkal BangaVindhya Himaachal Yamuna Ganga,Uchchhal Jaladhi TarangaTav Shubh Naamey Jaagey,Tav Shubh Aashish MaangeGaahey Tav Jayagaathaa Jana Gana Mangal Daayak,Jaya Hey Bhaarat Bhaagya VidhaataaJaya Hey, Jaya Hey, Jaya Hey,Jaya Jaya Jaya, Jaya HeyJana",
+				word = "Jana";
 
 		checkTheWords(passage, word);
 	}
 
 	private static void checkTheWords(String passage, String word) {
-		int i = 0, j = 0;
-		char[] str = passage.toCharArray(), wordArr = word.toCharArray();
-		while (i < passage.length()) {
+		int i = 0, j = 0, m = word.length() - 1;
 
-			if (str[i] == wordArr[j]) {
-				System.out.print(str[i] + "-");
-				j++;
-			}
-			if (j == word.length()) {
-				System.out.println(i);
-				System.out.println("Word found in index " + (i - word.length() + 1));
-				j = 0;
-			}
-			if (str[i] == ' ') {
-				j = 0;
-			}
+		char[] str = passage.toCharArray(), wordArr = word.toCharArray();
+		while (i < passage.length() - m) {
+
+			if (str[i] == wordArr[j] && check(passage.substring(i, i + word.length()), word))
+				System.out.println(word + " found at position " + (i + 1));
 			i++;
 		}
+
+	}
+
+	private static boolean check(String substr, String word) {
+
+		for (int i = 0; i < word.length(); i++) {
+			if (substr.charAt(i) != word.charAt(i)) {
+				return false;
+			}
+		}
+		return true;
 	}
 }
