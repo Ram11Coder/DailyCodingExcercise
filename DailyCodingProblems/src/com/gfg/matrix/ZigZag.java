@@ -13,13 +13,12 @@ public class ZigZag {
 					System.out.print(arr[r][c]);
 					r--;
 
-				} else if (c >= 0 || r<n ) {
-					System.out.println("r "+r +"c "+c);
+				} else if (c >= 0 || r < n) {
+					System.out.println("r " + r + "c " + c);
 					System.out.print(arr[r][c]);
 					r++;
 					c--;
-					
-				
+
 				} else if (r >= 0) {
 					System.out.print(arr[r--][c++]);
 				}
@@ -33,7 +32,6 @@ public class ZigZag {
 					r++;
 					c = 0;
 				}
-				
 
 			}
 			System.out.println();
