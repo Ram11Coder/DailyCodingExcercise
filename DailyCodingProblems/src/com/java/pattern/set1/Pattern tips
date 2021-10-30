@@ -1,0 +1,6 @@
+Tips to solve pattern problems:
+1.Identify no of times outer loop run
+2.Identify for every row 
+(i)How many columns are there 
+(ii)Types of element in the column
+3.What do you want to print

@@ -1,6 +1,7 @@
 package com.java.number.pattern;
 
 public class SpiralPattern {
+	// Coding is not completed
 	public static void main(String[] args) {
 
 		int r = 6, c = 6;
