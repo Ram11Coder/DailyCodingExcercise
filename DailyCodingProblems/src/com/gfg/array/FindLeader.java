@@ -11,6 +11,7 @@ public class FindLeader {
 		 * false; break; } } if(flag) System.out.print(temp+" "); }
 		 */
 		solver(arr);
+
 	}
 
 	private static void solver(int[] arr) {
