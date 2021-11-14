@@ -1,0 +1,13 @@
+//Printing 1D arrays
+		System.out.println(Arrays.toString(arr));
+
+// Printing 2D arrays
+		System.out.println(Arrays.deepToString(arr));
+		
+//Using streams
+
+	Arrays.stream(arr).forEach((e)-> {
+				Arrays.stream(e).forEach((j)->System.out.print(j+" ")
+						);
+				System.out.println();
+			});
