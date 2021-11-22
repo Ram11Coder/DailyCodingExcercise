@@ -1,5 +1,10 @@
 package com.gfg.array;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 /*An array is given of n length, and we need to calculate the next greater element for each element in the given array. If the next greater element is not available in the given array then we need to fill ‘_’ at that index place.
 
 Examples : 
@@ -25,11 +30,27 @@ public class NextGreaterElement {
 	public static void main(String[] args) {
 		int[] arr = { 6, 3, 9, 8, 10, 2, 1, 15, 7 };
 		nextGreater(arr);
+		nextGreaterWithSorting(arr);
 
 	}
 
-	private static void nextGreater(int[] arr) {
+//Time complexity O(n*logn)
+	private static void nextGreaterWithSorting(int[] arr) {
+		List<Integer> list = new ArrayList<>();
 
+		for (int i : arr)
+			list.add(i);
+
+		Collections.sort(list);
+
+		for (int i = 0; i < arr.length; i++)
+			if (list.indexOf(arr[i]) != list.size() - 1)
+				System.out.print(list.get(list.indexOf(arr[i]) + 1) + ", ");
+			else
+				System.out.print("_ , ");
+	}
+
+	private static void nextGreater(int[] arr) {
 		for (int i = 0; i < arr.length; i++) {
 			int val = arr[i], max = Integer.MAX_VALUE;
 			for (int j = 0; j < arr.length; j++) {
@@ -44,4 +65,5 @@ public class NextGreaterElement {
 		}
 
 	}
+
 }
