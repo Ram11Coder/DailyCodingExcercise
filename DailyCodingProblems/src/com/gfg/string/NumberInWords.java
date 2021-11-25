@@ -26,6 +26,7 @@ public class NumberInWords {
 		System.out.println(numberToWordsConversion(523));
 		System.out.println(numberToWordsConversion(89));
 		System.out.println(numberToWordsConversion(8989));
+		System.out.println(numberToWordsConversion(101));
 	}
 
 	private static String numberToWordsConversion(int n) {
@@ -60,8 +61,8 @@ public class NumberInWords {
 		int n = (int) (num % Math.pow(10, len - 1));
 		num = (int) (num / Math.pow(10, len - 1));
 		return (n == 0) ? getOnes(num) + HUNDREDS[0]
-				: (n > 10) ? getOnes(num) + HUNDREDS[0] + getTWO_DIGITS(n, len - 1)
-						: getOnes(num) + HUNDREDS[0] + getOnes(n);
+				: (n > 10) ? getOnes(num) + HUNDREDS[0]+" and " + getTWO_DIGITS(n, len - 1)
+						: getOnes(num) + HUNDREDS[0]+" and "  + getOnes(n);
 	}
 
 	private static String getTWO_DIGITS(int num, int len) {
