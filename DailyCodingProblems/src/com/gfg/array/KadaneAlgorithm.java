@@ -29,7 +29,7 @@ public class KadaneAlgorithm extends Object {
 
 	public static void main(String[] args) {
 
-//BruteForce
+//Dynamic programming
 		// int arr[] = { 1,2,3,-2,5};
 		int arr[] = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
 		int finalMax = Integer.MIN_VALUE;
