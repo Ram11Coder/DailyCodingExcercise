@@ -47,7 +47,6 @@ public class ChirsmasPattern {
 	 */
 	public static void main(String[] args) {
 		// If the tree grows then increase the space and trunk size
-		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the size of the tree");
 		int size = sc.nextInt();
