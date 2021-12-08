@@ -17,6 +17,6 @@ public class OccurenceOrder {
 		//Generic approach
 		for (int i : hash) 
 			if (i != 0)
-				System.out.println(i);
+				System.out.print(i+" ");
 	}
 }
