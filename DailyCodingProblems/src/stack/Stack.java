@@ -1,115 +1,127 @@
 package stack;
 
-import java.util.Scanner;
+public class Stack<T> {
 
-//public class Stack {
+    private static int MAX_SIZE = 40;
 
-//
-//}
-//stack operation
-//create a stack
-//push
-//pop
-//peek
-//isempty
-//isfull
+    private Element<T> top;
+    private int size = 0;
 
-public class Stack {
-	static final int MAX=100;
-	int top, arr[];
 
-	public Stack(int n) {
-		//this.n = n;
-		top = -1;
-		arr = new int[MAX];
-		System.out.println("Statck created !!");
+    public static void main(String[] args) throws StackOverflowException, StackUnderflowException {
+        MAX_SIZE = 4;
+        Stack<Integer> stack = new Stack<>();
 
-	}
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
 
-	public boolean is_full() {
-		return this.top>= (MAX - 1);
-	}
+        System.out.println("Stack size: " + stack.getSize());
+        System.out.println("Stack full?: " + stack.isFull());
+        System.out.println("Stack empty?: " + stack.isEmpty());
 
-	public boolean is_empty() {
-		return this.top == -1;
-	}
+        stack.push(4);
+        System.out.println("Stack size: " + stack.getSize());
+        System.out.println("Stack full?: " + stack.isFull());
+        System.out.println("Stack empty?: " + stack.isEmpty());
 
-	public void push(int val, Stack s) {
-		if (s.is_full()) {
-			System.out.println("Stack is full!!");
-			return;
-		} else {
-			arr[++(this.top)] = val;
-			System.out.println("Pushed val is " + arr[top]);
-		}
-	}
+        System.out.println("Stack peek: " + stack.peek());
 
-	public void pop() {
-		if (is_empty()) {
-			System.out.println("Stack is empty!!");
-			return;
-		} else {
-			int pop_value = arr[top--];
-			System.out.println("Popped val is " + pop_value);
+        int data = stack.pop();
+        System.out.println("Popped element: " + data);
 
-		}
-	}
+        System.out.println("Peek again: " + stack.peek());
 
-	public void peek() {
-		if (is_empty()) {
-			System.out.println("Stack is empty!!");
-			return;
-		} else {
-			System.out.println("Peeked val is :" + arr[top]);
-		}
+        try {
+            stack.push(4);
+            stack.push(5);
+        } catch (StackOverflowException soe) {
+            System.out.println("Stack is full! No room available.");
+        }
 
-	}
+        try {
+            stack.pop();
+            stack.pop();
+            stack.pop();
+            stack.pop();
+            stack.pop();
+            stack.pop();
+        } catch (StackUnderflowException sue) {
+            System.out.println("Stack is empty! No elements available.");
+        }
+    }
 
-	public void empty_stack(Stack s) {
-		if (s.is_empty()) {
-			System.out.println("Stack is empty!!");
-			return;
-		}
-		s.arr = null;
-		s = null;
+    public void push(T data) throws StackOverflowException {
+        if (size == MAX_SIZE) {
+            throw new StackOverflowException();
+        }
 
-	}
+        Element elem = new Element(data, top);
+        top = elem;
+        size++;
+    }
 
-	public static void main(String[] args) {
-		Stack s = new Stack(5);
-		boolean flag = true;
-		Scanner sc = new Scanner(System.in);
+    public T pop() throws StackUnderflowException {
+        if (size == 0) {
+            throw new StackUnderflowException();
+        }
+        T data = top.getData();
+        top = top.getNext();
 
-		while (flag) {
+        size--;
 
-			System.out.println("Choose the below operations");
-			System.out.println(
-					"1.push" + "\n" + "2.pop" + "\n" + "3.peek" + "\n" + "4.Empty the stack" + "\n" + "5.exit" + "\n");
-			int n = sc.nextInt();
-			switch (n) {
-			case 1:
-				System.out.println("Enter the number to push");
-				int push_val = sc.nextInt();
-				s.push(push_val, s);
-				break;
+        return data;
+    }
 
-			case 2:
-				s.pop();
-				break;
-			case 3:
-				s.peek();
-				break;
-			case 4:
-				s.empty_stack(s);
-				break;
-			case 5:
-				System.exit(0);
-				break;
-			default:
-				break;
-			}
-		}
+    public T peek() throws StackUnderflowException {
+        if (size == 0) {
+            throw new StackUnderflowException();
+        }
 
-	}
+        return top.getData();
+    }
 
+    public boolean isEmpty() {
+        return size == 0;
+    }
+
+    public boolean isFull() {
+        return size == MAX_SIZE;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public static class Element<T> {
+        private T data;
+        private Element next;
+
+        public T getData() {
+            return data;
+        }
+
+        public void setData(T data) {
+            this.data = data;
+        }
+
+        public Element getNext() {
+            return next;
+        }
+
+        public void setNext(Element next) {
+            this.next = next;
+        }
+
+        public Element(T data, Element next) {
+            this.data = data;
+            this.next = next;
+        }
+    }
+
+    public static class StackOverflowException extends Exception {
+    }
+
+    public static class StackUnderflowException extends Exception {
+    }
 }
