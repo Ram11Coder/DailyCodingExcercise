@@ -1,3 +1,8 @@
 eclipse.preferences.version=1
 encoding//src/array/KadaneAlgorithm.java=UTF-8
 encoding//src/numbers/NextGreaterEvenNumber.java=UTF-8
+encoding//src/sorting/AlternateSort.java=UTF-8
+encoding//src/sorting/BitonicGeneratorSort.java=UTF-8
+encoding//src/sorting/FrequencySort.java=UTF-8
+encoding//src/sorting/WaveSort.java=UTF-8
+encoding//src/stack/ParenthesisChecker.java=UTF-8
