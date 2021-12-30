@@ -7,7 +7,17 @@ public class PrintPattern {
 		 * if number positive then subtract 5 if number negative or zero then add 5
 		 * until reach n
 		 */
-		pattern(n, n, false);
+		// pattern(n, n, false);
+		patternWithoutExtraVar(n);
+	}
+
+	private static void patternWithoutExtraVar(int n) {
+		System.out.print(n + " ");
+		if (n <= 0) {
+			return;
+		}
+		patternWithoutExtraVar(n - 5);
+		System.out.print(n + " ");
 	}
 
 	private static void pattern(int n, int res, boolean flag) {
