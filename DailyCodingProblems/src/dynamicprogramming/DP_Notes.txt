@@ -1,0 +1,5 @@
+When should we go for Dynamic programming?
+
+1.Optimal substructure
+Solving sub problem solution to should lead to solution of the problem
+2.Repeating sub problem
