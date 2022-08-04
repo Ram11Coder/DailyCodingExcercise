@@ -11,12 +11,13 @@ public class CharTriangleDesc {
 			}
 			char c = 'A';
 			for (int j = 0; j < 2 * i + 1; j++) {
-				if (j < i) {
-					System.out.print(c++);
-				} else {
+				/*
+				 * if (j < i) { System.out.print(c++); } else {
+				 * 
+				 * System.out.print(c--); }
+				 */
 
-					System.out.print(c--);
-				}
+				System.out.print((j < i) ? c++ : c--);
 			}
 			System.out.println();
 		}
