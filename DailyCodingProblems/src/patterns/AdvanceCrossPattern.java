@@ -1,14 +1,28 @@
 package patterns;
 
-import java.util.Scanner; 
+import java.util.Scanner;
+
+/**
+
+5
+
+*   *   *
+ * * * * 
+  *   *  
+ * * * * 
+*   *   *
+
+*
+*/
 
 public class AdvanceCrossPattern {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-//input should greater than 2, get the correct pattern
+//input should be greater than 2, to get the correct pattern
 		int n = sc.nextInt();
-		if (n <= 2) { 
+		if (n <= 2) {
 			System.out.println("Please enter the value greater than 2");
+			sc.close();
 			return;
 		}
 
@@ -23,5 +37,6 @@ public class AdvanceCrossPattern {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 }

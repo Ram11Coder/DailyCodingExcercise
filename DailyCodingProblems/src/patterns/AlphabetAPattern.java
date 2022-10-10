@@ -1,5 +1,18 @@
 package patterns;
 
+/**
+ * 
+
+n =5
+** 
+* *
+***
+* *
+* *
+* *
+
+ * 
+ */
 public class AlphabetAPattern {
 	public static void main(String[] args) {
 		int n = 5;
