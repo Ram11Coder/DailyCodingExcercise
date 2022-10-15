@@ -1,7 +1,25 @@
 package patterns;
 
 import java.util.Scanner;
+/**
+ * 
+ * 
+ 
+n= 5
+ 
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
 
+
+
+ */
 public class DiamondShapepattern {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -25,6 +43,6 @@ public class DiamondShapepattern {
 			}
 			System.out.println();
 		}
-
+sc.close();
 	}
 }
