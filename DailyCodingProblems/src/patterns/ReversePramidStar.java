@@ -2,6 +2,17 @@ package patterns;
 
 import java.util.Scanner;
 
+/*
+
+n= 5
+* * * * * 
+ * * * * 
+  * * * 
+   * * 
+    * 
+
+    
+*/
 public class ReversePramidStar {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -16,5 +27,6 @@ public class ReversePramidStar {
 			System.out.println();
 
 		}
+		sc.close();
 	}
 }

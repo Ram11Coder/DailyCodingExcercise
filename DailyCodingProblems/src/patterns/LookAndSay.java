@@ -1,5 +1,15 @@
 package patterns;
 
+/*
+n=5
+
+1
+11
+21
+1211
+111221
+
+*/
 public class LookAndSay {
 	public static void main(String[] args) {
 

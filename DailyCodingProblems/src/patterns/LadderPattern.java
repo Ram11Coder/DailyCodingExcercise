@@ -2,6 +2,29 @@ package patterns;
 
 import java.util.Scanner;
 
+/*
+
+n=5
+*   *
+*   *
+*****
+*   *
+*   *
+*****
+*   *
+*   *
+*****
+*   *
+*   *
+*****
+*   *
+*   *
+*****
+*   *
+*   *
+
+
+*/
 public class LadderPattern {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -12,5 +35,6 @@ public class LadderPattern {
 			else
 				System.out.println("*   *");
 		}
+		sc.close();
 	}
 }

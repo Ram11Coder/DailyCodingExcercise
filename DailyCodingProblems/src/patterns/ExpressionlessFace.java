@@ -1,8 +1,17 @@
 package patterns;
+/*
+n=5
+*_*****_*****_*
+**_****_****_**
+***_***_***_***
+****_**_**_****
+*****_*_*_*****
+
+*/
 
 public class ExpressionlessFace {
 	public static void main(String[] args) {
-		int n = 15;
+		int n = 5;
 
 		// firstApproach(n);
 		betterApproach(n);

@@ -1,5 +1,17 @@
 package patterns;
 
+/*
+ * 
+n=6
+1    1
+22   2
+3 3  3
+4  4 4
+5   55
+6    6
+
+
+*/
 public class Npattern {
 	public static void main(String[] args) {
 		int n = 6;

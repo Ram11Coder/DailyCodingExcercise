@@ -2,6 +2,21 @@ package patterns;
 
 import java.util.Scanner;
 
+/**
+ * 
+ *
+Enter the number :
+5
+* * * * * 
+*   *   * 
+* * * * * 
+*   *   * 
+* * * * * 
+
+ *  
+ */
+
+
 public class WindowPattern {
 	static void evenCheck(int n, int i, int j) {
 		if (i == 0 || j == 0 || i == n - 1 || j == n - 1 || i == (n / 2) || j == (n / 2) || i == ((n / 2) - 1)
@@ -27,6 +42,7 @@ public class WindowPattern {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 
 	static void oddCheck(int n, int i, int j) {

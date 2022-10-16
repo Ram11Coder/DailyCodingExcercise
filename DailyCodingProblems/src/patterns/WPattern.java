@@ -1,8 +1,17 @@
 package patterns;
+/**
+ * 
+n=5
 
+*   *   *
+ * * * * 
+  *   *  
+ 
+ *
+ */
 public class WPattern {
 	public static void main(String[] args) {
-		int n = 13;
+		int n = 5;
 
 		for (int j = 0; j < n / 2 + 1; j++) {
 			

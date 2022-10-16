@@ -1,6 +1,19 @@
 package patterns;
 
 import java.util.Scanner;
+/*
+
+
+
+Enter the number : 5
+    0
+   101
+  21012
+ 3210123
+432101234
+
+
+*/
 
 public class Pattern4 {
 	public static void main(String[] args) {
@@ -25,5 +38,6 @@ public class Pattern4 {
 			c++;
 			System.out.println();
 		}
+		sc.close();
 	}
 }

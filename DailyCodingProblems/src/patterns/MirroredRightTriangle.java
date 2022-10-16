@@ -2,6 +2,18 @@ package patterns;
 
 import java.util.Scanner;
 
+/*
+
+n=5
+     *
+    **
+   ***
+  ****
+ *****
+******
+
+
+*/
 public class MirroredRightTriangle {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -15,5 +27,7 @@ public class MirroredRightTriangle {
 			}
 			System.out.println();
 		}
+
+		sc.close();
 	}
 }

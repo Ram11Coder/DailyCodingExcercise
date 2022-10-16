@@ -2,6 +2,19 @@ package patterns;
 
 import java.util.Scanner;
 
+/*
+
+Enter the number : 5
+
+*****
+*   *
+*   *
+*   *
+*****
+
+
+*/
+
 public class HollowStar {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -9,15 +22,14 @@ public class HollowStar {
 		int n = sc.nextInt();
 
 		for (int i = 0; i < n; i++) {
-
 			for (int j = 0; j < n; j++) {
-				if (i == 0 || j == 0 || j == n - 1 || i == n - 1) {
+				if (i == 0 || j == 0 || j == n - 1 || i == n - 1)
 					System.out.print("*");
-				} else {
+				else
 					System.out.print(" ");
-				}
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 }

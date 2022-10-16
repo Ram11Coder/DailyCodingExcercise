@@ -2,8 +2,21 @@ package patterns;
 
 import java.util.Scanner;
 
+/*
+
+Enter the number :
+5
+  *  
+  *  
+*****
+  *  
+  *  
+
+
+*/
+
 public class PlusPattern {
-	//Better input odd number to get correct pattern
+	// Better input odd number to get correct pattern
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number :");
@@ -18,5 +31,6 @@ public class PlusPattern {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 }
