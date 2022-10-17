@@ -18,7 +18,7 @@ elements after it (2+2).
  */
 public class EquilibriumPoint {
 	public static void main(String[] args) {
-		int n = 5;
+		int n = 7;
 		int arr[] = {-7, 1, 5, 2, -4, 3, 0 };
 
 		for (int i = 1; i < arr.length; i++) {
@@ -31,19 +31,17 @@ public class EquilibriumPoint {
 
 	public static int checkLeft(int[] arr, int i) {
 		int sum = 0;
-		while (i >= 0) {
-			sum += arr[i];
-			i--;
-		}
+		while (i >= 0) 
+			sum += arr[i--];	
+		
 		return sum;
 	}
 
 	public static int checkRight(int[] arr, int i) {
 		int sum = 0;
-		while (i < arr.length) {
-			sum += arr[i];
-			i++;
-		}
+		while (i < arr.length) 
+			sum += arr[i++];
+	
 		return sum;
 	}
 }
