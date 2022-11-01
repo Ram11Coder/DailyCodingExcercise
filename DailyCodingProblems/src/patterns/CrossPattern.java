@@ -1,7 +1,5 @@
 package patterns;
 
-import java.util.Scanner;
-
 /*
 
 5
