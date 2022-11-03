@@ -29,7 +29,7 @@ public class AdvanceCrossPattern {
 		for (int i = 0; i < n; i++) {
 
 			for (int j = 0; j < 2 * n - 1; j++) {
-				if (j == i || j == n - i - 1 || (j == n + i - 1 && i != 0) || (j == 2 * n - i - 2 && i != n - 1))
+				if (j == i || j == n - i - 1 || j == n + i - 1  || j == 2 * n - i - 2 )
 					System.out.print("*");
 				else
 					System.out.print(" ");
