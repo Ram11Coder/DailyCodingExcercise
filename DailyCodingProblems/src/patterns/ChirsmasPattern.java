@@ -61,7 +61,19 @@ public class ChirsmasPattern {
 			space -= 2;
 		}
 		// System.out.println(trunkCount);
-		printTrunk(trunkCount / 2, trunkCount);
+		int trunkCountSpace = 0;
+		/**
+		 * If the size is less than 11 then trunkcount less than 25 we will trunk space
+		 * subtracting both (25 - trunkcount), Adding 2 so we can absolute middle of
+		 * trunk space
+		 */
+		if (size > 11)
+			trunkCountSpace = trunkCount / 2;
+		else
+			trunkCountSpace = 25 - trunkCount + 2 + (trunkCount / 2);
+//Printing trunk
+		printTrunk(trunkCountSpace, trunkCount);
+		sc.close();
 	}
 
 	private static void printTrunk(int space, int size) {
