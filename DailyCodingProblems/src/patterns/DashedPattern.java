@@ -19,7 +19,7 @@ public class DashedPattern {
 //		} else if (n > 4) {
 //			val = (n - 3);
 //		}
-		val=(n == 4)?1:(n - 3);
+		val = (n == 4) ? 1 : (n - 3);
 		limit = (3 * n) + val;
 		for (int i = 0; i < (2 * n) - 1; i++) {
 			int t = n;
