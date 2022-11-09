@@ -4,6 +4,19 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+//https://leetcode.com/problems/combination-sum-ii/
+
+/**
+ * Bruteforce Approach :
+ * We can follow same approach in combination sum 
+			sum(i+1, arr, res, target - arr.get(i), n);// instead of calling same value more than once 
+ *
+ * Use set data struture to store the unique values
+ * 
+ * Time Complexity : O(2^n *(k)*(logn) )
+ *  k -> Putting datastruture into another DS
+ *  logn -> putting it into set
+ */
 public class CombinationSum_2 {
 	public static void main(String[] args) {
 

@@ -34,5 +34,7 @@ public class SubsetSum1 {
 
 		// Not Pick the element
 		subsetSum(i + 1, arr, list, sum);
+		
+		
 	}
 }

@@ -3,7 +3,10 @@ package backtracking;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+//https://leetcode.com/problems/combination-sum/
 
+// same element repeat more than once 
+// Pattern : pick and Not pick
 public class CombinationSum {
 
 	public static void main(String[] args) {
