@@ -1,5 +1,8 @@
 package patterns;
 
+import java.util.stream.IntStream;
+import com.sun.org.apache.bcel.internal.generic.Instruction;
+
 public class Pattern2 {
 /*
  * 
@@ -19,11 +22,17 @@ n = 7
  */
 	public static void main(String[] args) {
 		int n = 7, c = 1;
-		for (int i = 1; i <= n; i++) {
+		solution(n, c);
+		// Java 8 solution is not possible because we need to store the value and keep track of it but streams are non-mutable
+	}
+
+
+  private static void solution(int n, int c) {
+    for (int i = 1; i <= n; i++) {
 			for (int j = 1; j <= i; j++) {
 				System.out.print(c++ +" ");
 			}
 			System.out.println();
 		}
-	}
+  }
 }
