@@ -1,8 +1,5 @@
 package patterns;
 
-import java.util.stream.IntStream;
-import com.sun.org.apache.bcel.internal.generic.Instruction;
-
 public class Pattern2 {
 /*
  * 
