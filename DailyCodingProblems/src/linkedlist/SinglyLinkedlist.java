@@ -10,6 +10,8 @@ public class SinglyLinkedlist {
     this.next = null;
   }
 
+  public SinglyLinkedlist() {}
+
   public int getData() {
     return data;
   }
@@ -65,7 +67,7 @@ public class SinglyLinkedlist {
 
 
     while (temp != null) {
-      System.out.print("["+temp.data + "] ");
+      System.out.print("[" + temp.data + "] ");
       temp = temp.next;
     }
     System.out.println();
