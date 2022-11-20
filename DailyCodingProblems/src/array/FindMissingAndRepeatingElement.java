@@ -201,5 +201,8 @@ public class FindMissingAndRepeatingElement {
     // at last do a linear check which amont x and y is missing or repeating
 
     /* *x and *y hold the desired output elements */
+    
+    System.out
+    .println("Missing number - " + x + ", Repeating Number - " + y);
   }
 }
