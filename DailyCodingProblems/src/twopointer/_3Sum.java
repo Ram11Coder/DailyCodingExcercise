@@ -19,7 +19,7 @@ public class _3Sum {
     // Approach 2 : use hashing and reduce the iteration to 2
     usingHash(arr, target);
 
-    // Approach 3 - Using2 pointer
+    // Approach 3 - Using 2 pointer
     using2Pointer(arr, target);
   }
 
