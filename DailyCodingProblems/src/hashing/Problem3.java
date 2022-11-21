@@ -1,4 +1,4 @@
-package map;
+package hashing;
 /**
  * Help john to find new friends in social network
 Input:

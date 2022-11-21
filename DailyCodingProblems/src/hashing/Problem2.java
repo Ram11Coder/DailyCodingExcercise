@@ -1,4 +1,4 @@
-package map;
+package hashing;
 /**
  *  Given a two dimensional array of string like
  <”luke”, “shaw”>

@@ -1,4 +1,4 @@
-package map;
+package hashing;
 /**
  * Given a few pairs of names in the order child, father. The input is a person name and level number. The output should be the number of children in that particular level for the person given.
 Example:

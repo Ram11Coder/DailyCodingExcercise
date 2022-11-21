@@ -1,4 +1,4 @@
-package map;
+package hashing;
 /**
  * https://practice.geeksforgeeks.org/problems/longest-consecutive-subsequence2449/1
  *
