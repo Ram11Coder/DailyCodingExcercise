@@ -12,7 +12,7 @@ public class Merge2SortedList {
     SinglyLinkedlist.insertNode(8, head2);
     SinglyLinkedlist.insertNode(10, head2);
 
-    bruteforce(head1, head2);
+    // bruteforce(head1, head2);
     optimal(head1, head2);
 
 
@@ -58,44 +58,37 @@ public class Merge2SortedList {
    * SC -O(n+m)
    */
   private static void bruteforce(SinglyLinkedlist head1, SinglyLinkedlist head2) {
+    if (head1 == null || head2 == null)
+      return;
     SinglyLinkedlist dummy = new SinglyLinkedlist();
-    SinglyLinkedlist duplicateDummy = new SinglyLinkedlist();
-    dummy.next = duplicateDummy;
-    SinglyLinkedlist temp;
-    SinglyLinkedlist temp1 = head1, temp2 = head2;
-
+    SinglyLinkedlist temp = dummy, temp1 = head1, temp2 = head2, newNode;
     while (temp1 != null && temp2 != null) {
 
       if (temp1.data <= temp2.data) {
-        duplicateDummy.data = temp1.data;
+        newNode = new SinglyLinkedlist(temp1.data);
         temp1 = temp1.next;
       } else {
-        duplicateDummy.data = temp2.data;
+        newNode = new SinglyLinkedlist(temp2.data);
         temp2 = temp2.next;
       }
 
-      temp = new SinglyLinkedlist();
-      duplicateDummy.next = temp;
-      duplicateDummy = temp;
+      temp.next = newNode;
+      temp = newNode;
     }
 
     while (temp1 != null) {
-      duplicateDummy.data = temp1.data;
-      temp = new SinglyLinkedlist();
-      duplicateDummy.next = temp;
-      duplicateDummy = temp;
+      newNode = new SinglyLinkedlist(temp1.data);
+      temp.next = newNode;
+      temp = newNode;
       temp1 = temp1.next;
     }
 
     while (temp2 != null) {
-      duplicateDummy.data = temp2.data;
-      temp = new SinglyLinkedlist();
-      duplicateDummy.next = temp;
-      duplicateDummy = temp;
+      newNode = new SinglyLinkedlist(temp2.data);
+      temp.next = newNode;
+      temp = newNode;
       temp2 = temp2.next;
     }
-    temp = null;
-    duplicateDummy = null;
 
     SinglyLinkedlist.print(dummy.next);
   }
