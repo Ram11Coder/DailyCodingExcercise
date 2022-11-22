@@ -58,6 +58,20 @@ public class SinglyLinkedlist {
 
   }
 
+
+  public static void insertNodeAtLast(SinglyLinkedlist head, SinglyLinkedlist newNode) {
+
+    if (head == null) {
+      return;
+    }
+    SinglyLinkedlist temp = head;
+    while (temp.next != null) {
+      temp = temp.next;
+    }
+    temp.next = newNode;
+
+  }
+
   public static void print(SinglyLinkedlist head) {
 
     if (head == null) {
