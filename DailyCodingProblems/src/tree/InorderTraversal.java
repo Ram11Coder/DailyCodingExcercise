@@ -1,5 +1,9 @@
 package tree;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
 public class InorderTraversal {
   public static void main(String[] args) {
     NodeTree root = new NodeTree(1);
@@ -12,16 +16,51 @@ public class InorderTraversal {
     root.right.right = new NodeTree(7);
     root.right.right.left = new NodeTree(9);
     root.right.right.right = new NodeTree(10);
+    System.out.println("Recursive Approach : ");
+    inorderTraversal_recursive(root);
+    System.out.println("\nIterative Approach : ");
+    inorderTraversal_iterative(root);
 
-    inorderTraversal(root);
   }
 
-  private static void inorderTraversal(NodeTree root) {
+  /**
+   * TC -O(n)
+   *
+   * SC ~ O(n) or Height of the tree
+   */
+  private static void inorderTraversal_iterative(NodeTree root) {
+    List<Integer> list = new ArrayList<>();
+    Stack<NodeTree> st = new Stack<>();
+    NodeTree node = root;
+    while (true) {
+
+      if (node != null) {
+        st.push(node);
+        node = node.left;
+      } else {
+        if (st.isEmpty())
+          break;
+        node = st.pop();
+        list.add(node.data);
+        node = node.right;
+      }
+    }
+    System.out.println(list);
+
+  }
+
+
+  /**
+   * TC -O(n)
+   *
+   * SC ~ O(n) or Height of the tree
+   */
+  private static void inorderTraversal_recursive(NodeTree root) {
     if (root == null)
       return;
 
-    inorderTraversal(root.left);
+    inorderTraversal_recursive(root.left);
     System.out.print(root.data + " ");
-    inorderTraversal(root.right);
+    inorderTraversal_recursive(root.right);
   }
 }
