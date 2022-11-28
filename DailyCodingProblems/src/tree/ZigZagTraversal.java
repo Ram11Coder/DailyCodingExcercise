@@ -1,14 +1,9 @@
 package tree;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-import java.util.stream.Collectors;
-import com.sun.org.apache.bcel.internal.classfile.Node;
-import array.Array1;
 
 // ZigZag or Spiral Traversal
 public class ZigZagTraversal {
