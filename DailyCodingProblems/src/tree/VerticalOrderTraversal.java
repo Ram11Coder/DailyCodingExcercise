@@ -7,6 +7,10 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.TreeMap;
 
+/**
+ * TODO : Implement the Vertical order traversal in preorder or inorder
+ *
+ */
 class Tuple {
   NodeTree node;
   int row;
@@ -21,6 +25,12 @@ class Tuple {
 }
 
 
+/**
+ * TC - O(n*logn)
+ *
+ * SC - O(n)+O(n)
+ *
+ */
 public class VerticalOrderTraversal {
   public static void main(String[] args) {
 
@@ -37,6 +47,10 @@ public class VerticalOrderTraversal {
     verticalOrderTraversal(root);
   }
 
+  /**
+   * Implemented in level-order traversal
+   *
+   */
   private static void verticalOrderTraversal(NodeTree root) {
     TreeMap<Integer, TreeMap<Integer, PriorityQueue<Integer>>> map = new TreeMap<>();
 
