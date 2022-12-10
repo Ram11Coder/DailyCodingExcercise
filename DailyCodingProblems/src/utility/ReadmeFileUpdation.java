@@ -12,8 +12,9 @@ import java.io.IOException;
 public class ReadmeFileUpdation {
   private static final String SRC_DIR =
       "D:\\localRepository\\DaillyPractiseProblem\\DailyCodingProblems\\src";
-  private static final String README_FILE =
-      "D:\\localRepository\\DaillyPractiseProblem\\README1.md";
+  private static final String README_FILE = "D:\\localRepository\\DaillyPractiseProblem\\README.md";
+  private static final String BRANCH_PATH =
+      "https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/";
 
   public static void main(String[] args) throws IOException {
 
@@ -26,7 +27,6 @@ public class ReadmeFileUpdation {
     StringBuilder sb = new StringBuilder();
     sb.append("# Daily Coding Practise").append("\n");
 
-
     for (File dir : dirList) {
 
       sb.append("### ").append(dir.getName().toUpperCase()).append("\n");
@@ -35,12 +35,15 @@ public class ReadmeFileUpdation {
 
       int count = 1;
       for (String fileName : dir.list()) {
-        sb.append(count++).append("|").append(fileName).append("|").append("\n");
+        if (fileName.contains(".java"))
+          sb.append(count++).append("|[").append(fileName).append("](").append(BRANCH_PATH)
+              .append(dir.getName()).append("/").append(fileName).append(")|").append("\n");
       }
       sb.append("\n");
     }
 
     fos.write(sb.toString().getBytes());
+    System.out.println("Readme File updated successfully...!");
     fos.flush();
     fos.close();
   }
