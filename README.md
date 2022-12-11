@@ -441,3 +441,29 @@ No|Problems|
 2|[HelperUtil.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/utility/HelperUtil.java)|
 3|[ReadmeFileUpdation.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/utility/ReadmeFileUpdation.java)|
 
+Topics|Problems|
+:---: | :---:|
+GRAPH|3|
+MATRIX|31|
+ARRAY|50|
+NUMBERS|33|
+OOPS|2|
+PATTERNS|43|
+HASHING|10|
+PATTERNMATCHING|4|
+GREEDY|2|
+QUEUE|2|
+SEARCHING|3|
+STACK|10|
+TWOPOINTER|5|
+BINARYSEARCH|2|
+RECURSION|10|
+LINKEDLIST|14|
+STRING|49|
+TREE|17|
+SORTING|23|
+DYNAMICPROGRAMMING|9|
+BACKTRACKING|24|
+CHARPATTERN|6|
+UTILITY|3|
+TOTAL|355|

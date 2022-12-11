@@ -3,6 +3,8 @@ package utility;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Purpose of this to update the readme file upto date
@@ -17,7 +19,7 @@ public class ReadmeFileUpdation {
       "https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/";
 
   public static void main(String[] args) throws IOException {
-
+    Map<String, Integer> map = new HashMap<String, Integer>();
     File srcDir = new File(SRC_DIR);
     File[] dirList = srcDir.listFiles();
 
@@ -32,7 +34,7 @@ public class ReadmeFileUpdation {
       sb.append("### ").append(dir.getName().toUpperCase()).append("\n");
       sb.append("No").append("|").append("Problems").append("|").append("\n");
       sb.append(":---: | :---:|").append("\n");
-
+      map.put(dir.getName().toUpperCase(), dir.list().length);
       int count = 1;
       for (String fileName : dir.list()) {
         if (fileName.contains(".java"))
@@ -41,7 +43,14 @@ public class ReadmeFileUpdation {
       }
       sb.append("\n");
     }
-
+    sb.append("Topics").append("|").append("Problems").append("|").append("\n");
+    sb.append(":---: | :---:|").append("\n");
+    int total = 0;
+    for (Map.Entry<String, Integer> entry : map.entrySet()) {
+      sb.append(entry.getKey()).append("|").append(entry.getValue()).append("|").append("\n");
+      total += entry.getValue();
+    }
+    sb.append("TOTAL").append("|").append(total).append("|").append("\n");
     fos.write(sb.toString().getBytes());
     System.out.println("Readme File updated successfully...!");
     fos.flush();
