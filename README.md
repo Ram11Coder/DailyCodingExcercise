@@ -84,7 +84,8 @@ No|Problems|
 No|Problems|
 :---: | :---:|
 1|[BinarySearch.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/BinarySearch.java)|
-2|[Problem1.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/Problem1.java)|
+2|[NthRootofaNumberUsingBS.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/NthRootofaNumberUsingBS.java)|
+3|[Problem1.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/Problem1.java)|
 
 ### CHARPATTERN
 No|Problems|
@@ -456,7 +457,7 @@ QUEUE|2|
 SEARCHING|3|
 STACK|10|
 TWOPOINTER|5|
-BINARYSEARCH|2|
+BINARYSEARCH|3|
 RECURSION|10|
 LINKEDLIST|14|
 STRING|49|
@@ -466,4 +467,4 @@ DYNAMICPROGRAMMING|9|
 BACKTRACKING|24|
 CHARPATTERN|6|
 UTILITY|3|
-TOTAL|355|
+TOTAL|356|
