@@ -40,6 +40,34 @@ public class NthRootofaNumberUsingBS {
    */
   private static void getNthRoot(int m, int n) {
 
-   
+    double low = 1;
+    double high = m;
+    double eps = 1e-7;
+
+
+    while ((high - low) > eps) {
+      double mid = (low + high) / 2.0;
+
+      if (multiply(mid, n) > m) {
+        high = mid;
+      } else {
+        low = mid;
+      }
+    }
+    System.out.println(high);
+    System.out.println(low);
+    System.out.println(high - low);
+    System.out.println(n + " th root of " + m + " is " + low);
+
+    // System.out.println(Math.pow(m, 1.0 / n));
+  }
+
+  private static double multiply(double mid, int n) {
+    double ans = 1.0;
+    for (int i = 0; i < n; i++) {
+      ans *= mid;
+    }
+    return ans;
   }
 }
+
