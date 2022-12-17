@@ -3,8 +3,11 @@ package utility;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.HashMap;
+import java.util.Arrays;
+import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * Purpose of this to update the readme file upto date
@@ -19,9 +22,12 @@ public class ReadmeFileUpdation {
       "https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/";
 
   public static void main(String[] args) throws IOException {
-    Map<String, Integer> map = new HashMap<String, Integer>();
+    Map<String, Integer> map = new LinkedHashMap<String, Integer>();
     File srcDir = new File(SRC_DIR);
-    File[] dirList = srcDir.listFiles();
+
+    // Coding problem type will be list on high to low
+    List<File> dirList = Arrays.asList(srcDir.listFiles()).stream()
+        .sorted((o1, o2) -> o2.list().length - o1.list().length).collect(Collectors.toList());
 
     File file = new File(README_FILE);
     FileOutputStream fos = new FileOutputStream(file);
