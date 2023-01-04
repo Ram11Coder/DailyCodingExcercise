@@ -395,6 +395,15 @@ No|Problems|
 5|[MiddlePattern.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/charpattern/MiddlePattern.java)|
 6|[Zpattern.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/charpattern/Zpattern.java)|
 
+### BINARYSEARCH
+No|Problems|
+:---: | :---:|
+1|[BinarySearch.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/BinarySearch.java)|
+2|[NthRootofaNumberUsingBS.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/NthRootofaNumberUsingBS.java)|
+3|[Problem1.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/Problem1.java)|
+4|[SearchElementInASortedRotatedArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/SearchElementInASortedRotatedArray.java)|
+5|[SingleElementInSortedArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/SingleElementInSortedArray.java)|
+
 ### TWOPOINTER
 No|Problems|
 :---: | :---:|
@@ -403,14 +412,6 @@ No|Problems|
 3|[Problem3.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/Problem3.java)|
 4|[Problem4.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/Problem4.java)|
 5|[_3Sum.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/_3Sum.java)|
-
-### BINARYSEARCH
-No|Problems|
-:---: | :---:|
-1|[BinarySearch.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/BinarySearch.java)|
-2|[NthRootofaNumberUsingBS.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/NthRootofaNumberUsingBS.java)|
-3|[Problem1.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/Problem1.java)|
-4|[SingleElementInSortedArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/SingleElementInSortedArray.java)|
 
 ### PATTERNMATCHING
 No|Problems|
@@ -469,12 +470,12 @@ STACK|10|
 DYNAMICPROGRAMMING|9|
 UTILITY|7|
 CHARPATTERN|6|
+BINARYSEARCH|5|
 TWOPOINTER|5|
-BINARYSEARCH|4|
 PATTERNMATCHING|4|
 GRAPH|3|
 SEARCHING|3|
 GREEDY|2|
 OOPS|2|
 QUEUE|2|
-TOTAL|366|
+TOTAL|367|
