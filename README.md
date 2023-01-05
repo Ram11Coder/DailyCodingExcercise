@@ -31,28 +31,29 @@ No|Problems|
 27|[NumberOccurence.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/NumberOccurence.java)|
 28|[NumberSys.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/NumberSys.java)|
 29|[Pairs.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/Pairs.java)|
-30|[PeakElement.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/PeakElement.java)|
-31|[PrimeNumberDivision.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/PrimeNumberDivision.java)|
-32|[PrintDistinctNumber.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/PrintDistinctNumber.java)|
-33|[PrintSubset.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/PrintSubset.java)|
-34|[RearrangeArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/RearrangeArray.java)|
-35|[ReplaceNextGreaterElemetAtRight.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/ReplaceNextGreaterElemetAtRight.java)|
-36|[Reverse.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/Reverse.java)|
-37|[ReverseArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/ReverseArray.java)|
-38|[RotateArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/RotateArray.java)|
-39|[SecondFrequency.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SecondFrequency.java)|
-40|[SecondMaximum.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SecondMaximum.java)|
-41|[ShiftZeros.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/ShiftZeros.java)|
-42|[ShiftZerosLeft.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/ShiftZerosLeft.java)|
-43|[ShuffleArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/ShuffleArray.java)|
-44|[SortByFactor.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SortByFactor.java)|
-45|[SpecialArrayReversal.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SpecialArrayReversal.java)|
-46|[SubsetSum.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SubsetSum.java)|
-47|[SumContiniousSubarray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SumContiniousSubarray.java)|
-48|[SumofNumberN.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SumofNumberN.java)|
-49|[Top3MaxElements.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/Top3MaxElements.java)|
-50|[Top3RepeatedNumbers.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/Top3RepeatedNumbers.java)|
-51|[Twosum.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/Twosum.java)|
+30|[PascalTriangle.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/PascalTriangle.java)|
+31|[PeakElement.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/PeakElement.java)|
+32|[PrimeNumberDivision.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/PrimeNumberDivision.java)|
+33|[PrintDistinctNumber.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/PrintDistinctNumber.java)|
+34|[PrintSubset.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/PrintSubset.java)|
+35|[RearrangeArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/RearrangeArray.java)|
+36|[ReplaceNextGreaterElemetAtRight.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/ReplaceNextGreaterElemetAtRight.java)|
+37|[Reverse.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/Reverse.java)|
+38|[ReverseArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/ReverseArray.java)|
+39|[RotateArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/RotateArray.java)|
+40|[SecondFrequency.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SecondFrequency.java)|
+41|[SecondMaximum.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SecondMaximum.java)|
+42|[ShiftZeros.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/ShiftZeros.java)|
+43|[ShiftZerosLeft.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/ShiftZerosLeft.java)|
+44|[ShuffleArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/ShuffleArray.java)|
+45|[SortByFactor.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SortByFactor.java)|
+46|[SpecialArrayReversal.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SpecialArrayReversal.java)|
+47|[SubsetSum.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SubsetSum.java)|
+48|[SumContiniousSubarray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SumContiniousSubarray.java)|
+49|[SumofNumberN.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SumofNumberN.java)|
+50|[Top3MaxElements.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/Top3MaxElements.java)|
+51|[Top3RepeatedNumbers.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/Top3RepeatedNumbers.java)|
+52|[Twosum.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/Twosum.java)|
 
 ### STRING
 No|Problems|
@@ -214,17 +215,18 @@ No|Problems|
 17|[PrintDigitNumber.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/PrintDigitNumber.java)|
 18|[Rectangle.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/Rectangle.java)|
 19|[ReverseWave.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/ReverseWave.java)|
-20|[RotateMatrix.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/RotateMatrix.java)|
-21|[SetMatrixZeros.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/SetMatrixZeros.java)|
-22|[SnakePat.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/SnakePat.java)|
-23|[SpiralNumber.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/SpiralNumber.java)|
-24|[SpiralPattern.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/SpiralPattern.java)|
-25|[SubstringMatrix.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/SubstringMatrix.java)|
-26|[TransposeMatrix.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/TransposeMatrix.java)|
-27|[UniqueRow.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/UniqueRow.java)|
-28|[WordSearch.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/WordSearch.java)|
-29|[ZigZag.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/ZigZag.java)|
-30|[ZigZagMatrix.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/ZigZagMatrix.java)|
+20|[RotateImage.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/RotateImage.java)|
+21|[RotateMatrix.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/RotateMatrix.java)|
+22|[SetMatrixZeros.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/SetMatrixZeros.java)|
+23|[SnakePat.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/SnakePat.java)|
+24|[SpiralNumber.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/SpiralNumber.java)|
+25|[SpiralPattern.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/SpiralPattern.java)|
+26|[SubstringMatrix.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/SubstringMatrix.java)|
+27|[TransposeMatrix.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/TransposeMatrix.java)|
+28|[UniqueRow.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/UniqueRow.java)|
+29|[WordSearch.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/WordSearch.java)|
+30|[ZigZag.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/ZigZag.java)|
+31|[ZigZagMatrix.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/matrix/ZigZagMatrix.java)|
 
 ### BACKTRACKING
 No|Problems|
@@ -458,11 +460,11 @@ No|Problems|
 
 Topics|Problems|
 :---: | :---:|
-ARRAY|52|
+ARRAY|53|
 STRING|52|
 PATTERNS|43|
 NUMBERS|33|
-MATRIX|31|
+MATRIX|32|
 BACKTRACKING|24|
 SORTING|23|
 TREE|17|
@@ -481,4 +483,4 @@ GREEDY|3|
 SEARCHING|3|
 OOPS|2|
 QUEUE|2|
-TOTAL|370|
+TOTAL|372|
