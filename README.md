@@ -374,6 +374,17 @@ No|Problems|
 7|[Problem6.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/Problem6.java)|
 8|[Problem7.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/Problem7.java)|
 
+### TWOPOINTER
+No|Problems|
+:---: | :---:|
+1|[MaxConsecutiveOnes.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/MaxConsecutiveOnes.java)|
+2|[Problem1.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/Problem1.java)|
+3|[Problem2.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/Problem2.java)|
+4|[Problem3.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/Problem3.java)|
+5|[Problem4.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/Problem4.java)|
+6|[RemoveDuplicatesFromSortedArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/RemoveDuplicatesFromSortedArray.java)|
+7|[_3Sum.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/_3Sum.java)|
+
 ### UTILITY
 No|Problems|
 :---: | :---:|
@@ -394,16 +405,6 @@ No|Problems|
 4|[CharTriangleDesc.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/charpattern/CharTriangleDesc.java)|
 5|[MiddlePattern.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/charpattern/MiddlePattern.java)|
 6|[Zpattern.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/charpattern/Zpattern.java)|
-
-### TWOPOINTER
-No|Problems|
-:---: | :---:|
-1|[Problem1.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/Problem1.java)|
-2|[Problem2.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/Problem2.java)|
-3|[Problem3.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/Problem3.java)|
-4|[Problem4.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/Problem4.java)|
-5|[RemoveDuplicatesFromSortedArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/RemoveDuplicatesFromSortedArray.java)|
-6|[_3Sum.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/_3Sum.java)|
 
 ### BINARYSEARCH
 No|Problems|
@@ -470,9 +471,9 @@ HASHING|10|
 RECURSION|10|
 STACK|10|
 DYNAMICPROGRAMMING|9|
+TWOPOINTER|7|
 UTILITY|7|
 CHARPATTERN|6|
-TWOPOINTER|6|
 BINARYSEARCH|5|
 PATTERNMATCHING|4|
 GRAPH|3|
@@ -480,4 +481,4 @@ GREEDY|3|
 SEARCHING|3|
 OOPS|2|
 QUEUE|2|
-TOTAL|369|
+TOTAL|370|
