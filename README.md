@@ -395,6 +395,16 @@ No|Problems|
 5|[MiddlePattern.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/charpattern/MiddlePattern.java)|
 6|[Zpattern.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/charpattern/Zpattern.java)|
 
+### TWOPOINTER
+No|Problems|
+:---: | :---:|
+1|[Problem1.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/Problem1.java)|
+2|[Problem2.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/Problem2.java)|
+3|[Problem3.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/Problem3.java)|
+4|[Problem4.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/Problem4.java)|
+5|[RemoveDuplicatesFromSortedArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/RemoveDuplicatesFromSortedArray.java)|
+6|[_3Sum.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/_3Sum.java)|
+
 ### BINARYSEARCH
 No|Problems|
 :---: | :---:|
@@ -403,15 +413,6 @@ No|Problems|
 3|[Problem1.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/Problem1.java)|
 4|[SearchElementInASortedRotatedArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/SearchElementInASortedRotatedArray.java)|
 5|[SingleElementInSortedArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/SingleElementInSortedArray.java)|
-
-### TWOPOINTER
-No|Problems|
-:---: | :---:|
-1|[Problem1.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/Problem1.java)|
-2|[Problem2.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/Problem2.java)|
-3|[Problem3.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/Problem3.java)|
-4|[Problem4.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/Problem4.java)|
-5|[_3Sum.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/_3Sum.java)|
 
 ### PATTERNMATCHING
 No|Problems|
@@ -471,12 +472,12 @@ STACK|10|
 DYNAMICPROGRAMMING|9|
 UTILITY|7|
 CHARPATTERN|6|
+TWOPOINTER|6|
 BINARYSEARCH|5|
-TWOPOINTER|5|
 PATTERNMATCHING|4|
 GRAPH|3|
 GREEDY|3|
 SEARCHING|3|
 OOPS|2|
 QUEUE|2|
-TOTAL|368|
+TOTAL|369|
