@@ -428,18 +428,19 @@ No|Problems|
 2|[Problem2.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/graph/Problem2.java)|
 3|[Problem3.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/graph/Problem3.java)|
 
+### GREEDY
+No|Problems|
+:---: | :---:|
+1|[NmeetingInOneRoom.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/greedy/NmeetingInOneRoom.java)|
+2|[Problem1.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/greedy/Problem1.java)|
+3|[Problem2.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/greedy/Problem2.java)|
+
 ### SEARCHING
 No|Problems|
 :---: | :---:|
 1|[BinarySearch.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/searching/BinarySearch.java)|
 2|[BSOccurrence.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/searching/BSOccurrence.java)|
 3|[LinearSearch.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/searching/LinearSearch.java)|
-
-### GREEDY
-No|Problems|
-:---: | :---:|
-1|[Problem1.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/greedy/Problem1.java)|
-2|[Problem2.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/greedy/Problem2.java)|
 
 ### OOPS
 No|Problems|
@@ -474,8 +475,8 @@ BINARYSEARCH|5|
 TWOPOINTER|5|
 PATTERNMATCHING|4|
 GRAPH|3|
+GREEDY|3|
 SEARCHING|3|
-GREEDY|2|
 OOPS|2|
 QUEUE|2|
-TOTAL|367|
+TOTAL|368|
