@@ -326,6 +326,19 @@ No|Problems|
 13|[ReverseLinkedList.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/linkedlist/ReverseLinkedList.java)|
 14|[SinglyLinkedlist.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/linkedlist/SinglyLinkedlist.java)|
 
+### DYNAMICPROGRAMMING
+No|Problems|
+:---: | :---:|
+1|[ClimbingStairs.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/ClimbingStairs.java)|
+2|[FibonacciSeries.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/FibonacciSeries.java)|
+3|[Problem1.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/Problem1.java)|
+4|[Problem2.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/Problem2.java)|
+5|[Problem3.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/Problem3.java)|
+6|[Problem4.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/Problem4.java)|
+7|[Problem5.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/Problem5.java)|
+8|[Problem6.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/Problem6.java)|
+9|[Problem7.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/Problem7.java)|
+
 ### HASHING
 No|Problems|
 :---: | :---:|
@@ -367,18 +380,6 @@ No|Problems|
 8|[SlidingWindowMaximum.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/stack/SlidingWindowMaximum.java)|
 9|[Stack.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/stack/Stack.java)|
 10|[StackOperation.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/stack/StackOperation.java)|
-
-### DYNAMICPROGRAMMING
-No|Problems|
-:---: | :---:|
-1|[FibonacciSeries.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/FibonacciSeries.java)|
-2|[Problem1.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/Problem1.java)|
-3|[Problem2.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/Problem2.java)|
-4|[Problem3.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/Problem3.java)|
-5|[Problem4.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/Problem4.java)|
-6|[Problem5.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/Problem5.java)|
-7|[Problem6.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/Problem6.java)|
-8|[Problem7.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/dynamicprogramming/Problem7.java)|
 
 ### TWOPOINTER
 No|Problems|
@@ -473,10 +474,10 @@ BACKTRACKING|24|
 SORTING|23|
 TREE|17|
 LINKEDLIST|14|
+DYNAMICPROGRAMMING|10|
 HASHING|10|
 RECURSION|10|
 STACK|10|
-DYNAMICPROGRAMMING|9|
 TWOPOINTER|7|
 UTILITY|7|
 CHARPATTERN|6|
@@ -487,4 +488,4 @@ GREEDY|3|
 SEARCHING|3|
 OOPS|2|
 QUEUE|2|
-TOTAL|376|
+TOTAL|377|
