@@ -45,17 +45,18 @@ No|Problems|
 41|[RotateArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/RotateArray.java)|
 42|[SecondFrequency.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SecondFrequency.java)|
 43|[SecondMaximum.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SecondMaximum.java)|
-44|[ShiftZeros.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/ShiftZeros.java)|
-45|[ShiftZerosLeft.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/ShiftZerosLeft.java)|
-46|[ShuffleArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/ShuffleArray.java)|
-47|[SortByFactor.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SortByFactor.java)|
-48|[SpecialArrayReversal.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SpecialArrayReversal.java)|
-49|[SubsetSum.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SubsetSum.java)|
-50|[SumContiniousSubarray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SumContiniousSubarray.java)|
-51|[SumofNumberN.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SumofNumberN.java)|
-52|[Top3MaxElements.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/Top3MaxElements.java)|
-53|[Top3RepeatedNumbers.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/Top3RepeatedNumbers.java)|
-54|[Twosum.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/Twosum.java)|
+44|[SegmentSearch.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SegmentSearch.java)|
+45|[ShiftZeros.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/ShiftZeros.java)|
+46|[ShiftZerosLeft.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/ShiftZerosLeft.java)|
+47|[ShuffleArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/ShuffleArray.java)|
+48|[SortByFactor.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SortByFactor.java)|
+49|[SpecialArrayReversal.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SpecialArrayReversal.java)|
+50|[SubsetSum.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SubsetSum.java)|
+51|[SumContiniousSubarray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SumContiniousSubarray.java)|
+52|[SumofNumberN.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/SumofNumberN.java)|
+53|[Top3MaxElements.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/Top3MaxElements.java)|
+54|[Top3RepeatedNumbers.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/Top3RepeatedNumbers.java)|
+55|[Twosum.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/array/Twosum.java)|
 
 ### STRING
 No|Problems|
@@ -392,16 +393,15 @@ No|Problems|
 6|[RemoveDuplicatesFromSortedArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/RemoveDuplicatesFromSortedArray.java)|
 7|[_3Sum.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/twopointer/_3Sum.java)|
 
-### UTILITY
+### BINARYSEARCH
 No|Problems|
 :---: | :---:|
-1|[CheckBoxGenerator.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/utility/CheckBoxGenerator.java)|
-2|[DSUtil.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/utility/DSUtil.java)|
-3|[GenericSorting.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/utility/GenericSorting.java)|
-4|[HelperUtil.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/utility/HelperUtil.java)|
-5|[PasswordGenerator.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/utility/PasswordGenerator.java)|
-6|[ReadmeFileUpdation.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/utility/ReadmeFileUpdation.java)|
-7|[TestUtil.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/utility/TestUtil.java)|
+1|[BinarySearch.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/BinarySearch.java)|
+2|[MedianOfTwoSortedArraysOfDifferentSizes.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/MedianOfTwoSortedArraysOfDifferentSizes.java)|
+3|[NthRootofaNumberUsingBS.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/NthRootofaNumberUsingBS.java)|
+4|[Problem1.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/Problem1.java)|
+5|[SearchElementInASortedRotatedArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/SearchElementInASortedRotatedArray.java)|
+6|[SingleElementInSortedArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/SingleElementInSortedArray.java)|
 
 ### CHARPATTERN
 No|Problems|
@@ -413,14 +413,15 @@ No|Problems|
 5|[MiddlePattern.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/charpattern/MiddlePattern.java)|
 6|[Zpattern.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/charpattern/Zpattern.java)|
 
-### BINARYSEARCH
+### UTILITY
 No|Problems|
 :---: | :---:|
-1|[BinarySearch.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/BinarySearch.java)|
-2|[NthRootofaNumberUsingBS.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/NthRootofaNumberUsingBS.java)|
-3|[Problem1.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/Problem1.java)|
-4|[SearchElementInASortedRotatedArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/SearchElementInASortedRotatedArray.java)|
-5|[SingleElementInSortedArray.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/binarysearch/SingleElementInSortedArray.java)|
+1|[CheckBoxGenerator.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/utility/CheckBoxGenerator.java)|
+2|[DSUtil.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/utility/DSUtil.java)|
+3|[GenericSorting.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/utility/GenericSorting.java)|
+4|[HelperUtil.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/utility/HelperUtil.java)|
+5|[PasswordGenerator.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/utility/PasswordGenerator.java)|
+6|[ReadmeFileUpdation.java](https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/utility/ReadmeFileUpdation.java)|
 
 ### PATTERNMATCHING
 No|Problems|
@@ -465,7 +466,7 @@ No|Problems|
 
 Topics|Problems|
 :---: | :---:|
-ARRAY|55|
+ARRAY|56|
 STRING|52|
 PATTERNS|43|
 NUMBERS|34|
@@ -479,13 +480,13 @@ HASHING|10|
 RECURSION|10|
 STACK|10|
 TWOPOINTER|7|
-UTILITY|7|
+BINARYSEARCH|6|
 CHARPATTERN|6|
-BINARYSEARCH|5|
+UTILITY|6|
 PATTERNMATCHING|4|
 GRAPH|3|
 GREEDY|3|
 SEARCHING|3|
 OOPS|2|
 QUEUE|2|
-TOTAL|377|
+TOTAL|378|
