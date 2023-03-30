@@ -29,9 +29,8 @@ public class MInMax {
 		for (int i = 1; i < arr.length; i++) {
 			max_val = Math.max(max_val, arr[i]);
 			min_val = Math.min(min_val, arr[i]);
-			System.out.println("MAX val" + max_val + "MIN val" + min_val);
 		}
-		// System.out.println("MAX val" + max_val + "MIN val" + min_val);
+		 System.out.println("MAX val - " + max_val + ", MIN val - " + min_val);
 	}
 
 	private static void min_max(int[] arr) {

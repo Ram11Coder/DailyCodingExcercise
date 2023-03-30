@@ -21,9 +21,28 @@ public class Insert0AfterKtimes {
 		System.out.print("[");
 		checKConsectiveKtimes(arr, k);
 		System.out.print("]");
+		checKConsectiveKtimes_Optimised(arr, k);
 	}
 
-	private static void checKConsectiveKtimes(int[] arr, int k) {
+	private static void checKConsectiveKtimes_Optimised(int[] arr, int k) {
+    int c=1;
+	  for (int i = 0; i < arr.length-1; i++) {
+	  
+        if(arr[i]==1 &&arr[i+1]==1) {
+       //   System.out.print(arr[i]);
+          c++;
+          if(c==k) {
+            System.out.print(0);
+            c=0;
+          }
+        }else {
+       //   System.out.print(arr[i]);
+          c=1;
+        }
+      }
+  }
+
+  private static void checKConsectiveKtimes(int[] arr, int k) {
 
 		for (int i = 0; i < arr.length - 1;) {
 			int c = 1;

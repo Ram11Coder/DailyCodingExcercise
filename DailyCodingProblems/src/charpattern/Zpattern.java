@@ -5,7 +5,7 @@ public class Zpattern {
 		char c = 'Z';
 		int n =  c-'A';
 		n+=1;
-		System.out.println(n);
+		//System.out.println(n);
 	
 		for (int i = 0; i < n; i++) {
 			char val = 'A';

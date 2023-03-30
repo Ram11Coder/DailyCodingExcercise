@@ -1,7 +1,9 @@
 package array;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.stream.IntStream;
 
 /**
  * https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1
@@ -75,4 +77,9 @@ public class ArrayUnion {
 		System.out.println(count);
 	}
 
+	
+	//Java8 Solution
+	public void Java8Solution(int[] arr1,int arr2[]) {
+	  
+	}
 }
