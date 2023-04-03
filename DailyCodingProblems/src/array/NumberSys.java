@@ -15,6 +15,7 @@ public class NumberSys {
 		int n = sc.nextInt();
 
 		sequenceChecker(n);
+		sc.close();
 	}
 
 	private static void sequenceChecker(int n) {

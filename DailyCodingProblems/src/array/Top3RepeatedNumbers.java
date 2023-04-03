@@ -56,7 +56,7 @@ public class Top3RepeatedNumbers {
 		// System.out.println(entry);
 		x.first = y.first = z.first = Integer.MIN_VALUE;
 		for (Map.Entry en : map.entrySet()) {
-			if (Integer.parseInt(String.valueOf(en.getValue())) > x.first) {
+			if (Integer.parseInt(String.valueOf(en.getValue())) >= x.first) {
 				z.first = y.first;
 				z.second = y.second;
 				y.first = x.first;
