@@ -15,33 +15,51 @@ import java.util.Scanner;
  */
 // find the o(n) method
 public class Array1 {
-  public static boolean segCheck(int a[], int key, int seg, int val) {
-    int count = 0;
-    for (int i = val; i < (seg + val); i++) {
-      if (a[i] == key && seg > count++)
-        return true;
-    }
-    return false;
-  }
 
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    int key = 0, seg = 0;
-    boolean check = true;
-    int a[] = {3, 5, 2, 4, 9, 3, 1, 7, 3, 11, 12, 3};
+	public static boolean optimalApproach(int a[], int key, int seg) {
+		boolean flag = false;
+		for (int i = 0; i < a.length; i++) {
+			if (a[i] == key) {
+				flag = true;
+			}
+			if ((i + 1) % seg == 0 || i == a.length - 1) {
+				if (!flag)
+					return flag;
+				flag = false;
+			}
+		}
 
-    System.out.println("Enter the key:");
-    key = sc.nextInt();
-    System.out.println("Enter the segment:");
-    seg = sc.nextInt();
-    for (int i = 0; i < a.length; i += seg) {
-      if (check != segCheck(a, key, seg, i)) {
-        check = false;
-        break;
-      }
-    }
-    System.out.println((check == false) ? "NO" : "YES");
+		return true;
 
-    sc.close();
-  }
+	}
+
+	public static boolean segCheck(int a[], int key, int seg, int val) {
+		int count = 0;
+		for (int i = val; i < (seg + val); i++) {
+			if (a[i] == key && seg > count++)
+				return true;
+		}
+		return false;
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int key = 0, seg = 0;
+		boolean check = true;
+		int a[] = { 3, 5, 2, 4, 9, 3, 1, 7, 3, 11, 12, 3 };
+
+		System.out.println("Enter the key:");
+		key = sc.nextInt();
+		System.out.println("Enter the segment:");
+		seg = sc.nextInt();
+		for (int i = 0; i < a.length; i += seg) {
+			if (check != segCheck(a, key, seg, i)) {
+				check = false;
+				break;
+			}
+		}
+		System.out.println((check == false) ? "NO" : "YES");
+		System.out.println(optimalApproach(a, key, seg) ? "YES" : "NO");
+		sc.close();
+	}
 }

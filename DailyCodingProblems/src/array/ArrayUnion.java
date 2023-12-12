@@ -1,9 +1,9 @@
 package array;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 /**
  * https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1
@@ -40,13 +40,13 @@ public class ArrayUnion {
 
 		int arr1[] = { 85, 25, 1, 32, 54, 6 };
 		int arr2[] = { 85, 2 };
-
+		Java8Solution(arr1, arr2);
 		int[] res = new int[arr1.length + arr2.length];
 		if (arr1.length >= arr2.length) {
 			List<Integer> list1 = new ArrayList<Integer>();
-			for (Integer i : arr1) 
+			for (Integer i : arr1)
 				list1.add(i);
-			
+
 			int i = 0;
 			for (i = 0; i < arr1.length; i++)
 				res[i] = arr1[i];
@@ -58,8 +58,8 @@ public class ArrayUnion {
 		} else {
 			int i = 0;
 			List<Integer> list2 = new ArrayList<Integer>();
-			for (Integer e : arr2) 
-				list2.add(e);			
+			for (Integer e : arr2)
+				list2.add(e);
 
 			for (i = 0; i < arr2.length; i++)
 				res[i] = arr2[i];
@@ -68,18 +68,23 @@ public class ArrayUnion {
 				if (list2.indexOf(arr1[k]) == -1)
 					res[j] = arr1[k++];
 		}
-		//System.out.println(Arrays.toString(res));
+		// System.out.println(Arrays.toString(res));
 		int count = 0;
-		for (int i : res) 
+		for (int i : res)
 			if (i != 0)
 				count++;
-		
+
 		System.out.println(count);
+
 	}
 
-	
-	//Java8 Solution
-	public void Java8Solution(int[] arr1,int arr2[]) {
-	  
+	// Java8 Solution
+	public static void Java8Solution(int[] arr1, int arr2[]) {
+
+		// Stream<int[]> concat = Stream.concat(Stream.of(arr1), Stream.of(arr2));
+
+		long c = Stream.concat(IntStream.of(arr1).boxed(), IntStream.of(arr2).boxed()).distinct().count();
+
+		System.out.println(c);
 	}
 }

@@ -23,7 +23,7 @@ public class DuplicateElementBy0 {
           arr[i] = 0;
         }
       } else {
-        map.put(arr[i], 1);
+        map.put(arr[i], i);
       }
     }
     System.out.println(Arrays.toString(arr));

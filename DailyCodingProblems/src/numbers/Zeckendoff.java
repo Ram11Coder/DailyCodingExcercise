@@ -13,7 +13,7 @@ import java.util.List;
 public class Zeckendoff {
 	public static void main(String[] args) {
 
-		int n = 50;
+		int n = 12;
 		List<Integer> arr = fibonacciCreation(n);
 		int l = arr.size() - 1;
 
