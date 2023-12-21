@@ -22,6 +22,13 @@ public class ZigZagTraversal {
     zigZag(root);
   }
 
+  /**
+   * TC - O(N)
+   * 
+   * SC - O(N)
+   * 
+   * @param root
+   */
   private static void zigZag(NodeTree root) {
 
     List<List<Integer>> list = new ArrayList<List<Integer>>();

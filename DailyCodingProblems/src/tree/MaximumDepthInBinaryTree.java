@@ -34,7 +34,7 @@ public class MaximumDepthInBinaryTree {
    * 
    * SC - O(n)
    */
-  private static int maxDepthUsingBFS(NodeTree root) {
+   static int maxDepthUsingBFS(NodeTree root) {
     if (root == null)
       return 0;
     Queue<NodeTree> queue = new LinkedList<NodeTree>();
