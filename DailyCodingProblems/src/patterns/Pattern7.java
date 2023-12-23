@@ -1,4 +1,7 @@
 package patterns;
+
+import java.util.Iterator;
+
 /**
  * 
  * 	0 0 0 0 0 0 0 0 0 
@@ -12,11 +15,23 @@ package patterns;
 	0 0 0 0 0 0 0 0 0 
  *
  */
+
 public class Pattern7 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		int n = 4;
+		n = 2 * n;
+		for (int i = 0; i < n + 1; i++) {
+			for (int j = 0; j < n + 1; j++) {
+				int top = i;
+				int bottom = j;
+				int left = n - i;
+				int right = n - j;
+				System.out.print(Math.min(Math.min(top, bottom), Math.min(left, right)) + " ");
 
+			}
+			System.out.println();
+		}
 	}
 
 }

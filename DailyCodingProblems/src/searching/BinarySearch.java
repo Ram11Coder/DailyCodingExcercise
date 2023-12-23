@@ -15,7 +15,7 @@ public class BinarySearch {
 
   }
 
-  private static int iterativeBS(int[] arr, int key, int start, int end) {
+  public static int iterativeBS(int[] arr, int key, int start, int end) {
     while (start <= end) {
       int mid = start + (end - start) / 2;
       if (arr[mid] == key)
