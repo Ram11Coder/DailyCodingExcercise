@@ -16,7 +16,7 @@ public class TypeChecking {
 	public static void main(String[] args) {
 
 		System.out.println(typeCheckApproach1("anime", "aanimeee"));
-		System.out.println(typeCheckApproach1("Limcee", "Limmcce"));
+		System.out.println(typeCheckApproach1("Limcee", "Limmcceee"));
 		System.out.println(typeCheckApproach1(" ", "aanimeee"));
 
 	}
