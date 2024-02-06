@@ -13,7 +13,9 @@ public class Heap {
 		heap.insert(1);
 		heap.insert(2);
 		heap.insert(21);
-
+		System.out.println(heap);
+		System.out.println(heap.isMaxHeap(0));
+		System.out.println(heap.isMinHeap(0));
 		heap.remove();
 	}
 
@@ -160,5 +162,43 @@ public class Heap {
 		if (size == 0)
 			throw new IllegalArgumentException();
 		return items[0];
+	}
+
+	public boolean isMaxHeap(int ind) {
+
+		int lastParentIndex = (size - 2) / 2;
+
+		if (ind > lastParentIndex)
+			return true;
+
+		int left = ind * 2 + 1;
+		int right = ind * 2 + 2;
+		boolean isvalid = false;
+		if (left < size) 
+			isvalid = items[ind] >= items[left];
+		
+		if (right < size)
+			isvalid &= items[ind] >= items[right];
+
+		return isvalid && isMaxHeap(left) && isMaxHeap(right);
+	}
+	
+	public boolean isMinHeap(int ind) {
+
+		int lastParentIndex = (size - 2) / 2;
+
+		if (ind > lastParentIndex)
+			return true;
+
+		int left = ind * 2 + 1;
+		int right = ind * 2 + 2;
+		boolean isvalid = false;
+		if (left < size) 
+			isvalid = items[ind] <= items[left];
+		
+		if (right < size)
+			isvalid &= items[ind] <= items[right];
+
+		return isvalid && isMaxHeap(left) && isMaxHeap(right);
 	}
 }
