@@ -16,8 +16,8 @@ import java.util.stream.Collectors;
 
 public class ReadmeFileUpdation {
   private static final String SRC_DIR =
-      "D:\\localRepository\\DaillyPractiseProblem\\DailyCodingProblems\\src";
-  private static final String README_FILE = "D:\\localRepository\\DaillyPractiseProblem\\README.md";
+      "D:\\localRepository\\DailyCodingExcercise\\DailyCodingProblems\\src";
+  private static final String README_FILE = "D:\\localRepository\\DailyCodingExcercise\\README.md";
   private static final String BRANCH_PATH =
       "https://github.com/Ram11Coder/DailyCodingExcercise/tree/master/DailyCodingProblems/src/";
 
