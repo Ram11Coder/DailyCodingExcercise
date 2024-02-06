@@ -10,6 +10,31 @@ Should display the numbers based on increasing order.
 
  *
  */
-public class problem1 {
 
+class BinaryTreeNode<T> {
+	T data;
+	BinaryTreeNode<T> left;
+	BinaryTreeNode<T> right;
+
+	public BinaryTreeNode(T data) {
+		this.data = data;
+		this.left = null;
+		this.right = null;
+	}
+}
+public class problem1 {
+	public static void preOrder(BinaryTreeNode<Integer> root) {
+		if(root==null) return;
+		System.out.print(root.data);
+		preOrder(root.left);
+		preOrder(root.right);
+
+	}
+public static void main(String[] args) {
+	BinaryTreeNode<Integer> root =new BinaryTreeNode(1);
+	root.left=new BinaryTreeNode(2);
+	root.right=new BinaryTreeNode(3);
+	root.right.right=new BinaryTreeNode(4);
+	preOrder(root);
+}
 }
