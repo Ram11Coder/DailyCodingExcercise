@@ -42,9 +42,7 @@ public class SortBy123 {
     while (mid <= high) {
       switch (arr[mid]) {
         case 0: {
-          int t = arr[mid];
-          arr[mid] = arr[low];
-          arr[low] = t;
+          swap(arr, low, mid);
           mid++;
           low++;
           break;
@@ -54,9 +52,7 @@ public class SortBy123 {
           break;
         }
         case 2: {
-          int t = arr[mid];
-          arr[mid] = arr[high];
-          arr[high] = t;
+          swap(arr, high, mid);
           high--;
           break;
         }
@@ -64,6 +60,12 @@ public class SortBy123 {
     }
     System.out.println(Arrays.toString(arr));
   }
+
+private static void swap(int[] arr, int l, int r) {
+	int t = arr[r];
+	  arr[r] = arr[l];
+	  arr[l] = t;
+}
 
   private static void usinghash(int[] arr) {
     int frq[] = new int[3];
