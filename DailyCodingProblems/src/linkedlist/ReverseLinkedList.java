@@ -31,7 +31,7 @@ public class ReverseLinkedList {
       next = head.next;
       head.next = dummy;
       dummy = head;
-      head = next;
+      head = next; 
     }
 
     return dummy;
