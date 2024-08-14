@@ -15,19 +15,10 @@ public class Pattern16 {
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                if (i % 2 == 0) {
-                    if (j % 2 == 0) {
-                        System.out.print(" ");
-                    } else {
-                        System.out.print(" *");
-                    }
-                } else {
-                    if (j % 2 != 0) {
-                        System.out.print(" ");
-                    } else {
-                        System.out.print("* ");
-                    }
-                }
+                if (i % 2 == 0)
+                    System.out.print((j % 2 == 0) ? " " : " *");
+                else
+                    System.out.print((j % 2 != 0) ? " " : "* ");
             }
             System.out.println();
         }
