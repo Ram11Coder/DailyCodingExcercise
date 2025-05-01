@@ -13,6 +13,6 @@ Output:
 Remaining petrol in car is 5 liters
 
  */
-public class Problem1 {
+public class CircularTour {
 
 }
