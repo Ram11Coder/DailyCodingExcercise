@@ -1,5 +1,6 @@
 package array;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ReverseArray {
@@ -8,13 +9,12 @@ public class ReverseArray {
 		System.out.println("Enter the array size-->");
 		int n = sc.nextInt();
 		int[] arr = new int[n];
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < n; i++)
 			arr[i] = sc.nextInt();
-		}
-		print(arr);
-		//reverseArr(arr);
+
 		reverseArrWithInplace(arr);
-		print(arr);
+		System.out.println(Arrays.toString(arr));
+		sc.close();
 	}
 
 	private static void reverseArrWithInplace(int[] arr) {
@@ -26,18 +26,5 @@ public class ReverseArray {
 			i++;
 			j--;
 		}
-
-	}
-
-	private static void reverseArr(int[] arr) {
-		for (int i = arr.length - 1; i >= 0; i--) {
-			System.out.println(arr[i]);
-		}
-
-	}
-
-	private static void print(int[] arr) {
-		for (int i = 0; i < arr.length; i++)
-			System.out.printf("arr[%d]->%d\n", i, arr[i]);
 	}
 }
