@@ -1,39 +1,20 @@
 package array;
 
-import java.util.*;
-import java.io.*;
-import java.lang.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 class Reverse {
 
-  public static String reverseWord(String str) {
-    StringBuilder sb = new StringBuilder(str);
-
-    sb = sb.reverse();
-    return String.valueOf(sb);
-
-  }
-
-  public static void main(String args[]) throws IOException {
-    BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
-    int t = Integer.parseInt(read.readLine());
-
-    while (t-- > 0) {
-      String str = read.readLine();
-      System.out.println(reverseWord(str));
+    public static String reverseWord(String str) {
+        StringBuilder sb = new StringBuilder(str);
+        return String.valueOf(sb.reverse());
     }
-  }
-}// } Driver Code Ends
 
-
-// User function Template for Java
-
-
-/*
- * class Reverse { // Complete the function // str: input string public static String
- * reverseWord(String str) { StringBuilder sb = new StringBuilder(str);
- * 
- * sb = sb.reverse(); return String.valueOf(sb);
- * 
- * } }
- */
+    public static void main(String[] args) throws IOException {
+        BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
+        int num = Integer.parseInt(read.readLine());
+        while (num-- > 0)
+            System.out.println(reverseWord(read.readLine()));
+    }
+}
