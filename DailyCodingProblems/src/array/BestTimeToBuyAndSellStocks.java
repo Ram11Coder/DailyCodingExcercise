@@ -3,7 +3,7 @@ package array;
 /**
  * Best time to buy and sell the stock with high profit
  */
-public class BesttimeToBuyAndSellStocks {
+public class BestTimeToBuyAndSellStocks {
   public static void main(String[] args) {
 
     int[] stocks = {3, 5, 2, 1};
